@@ -1,0 +1,150 @@
+@font-face{
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    font-style: normal;
+    src:url(/font/Ubuntu/Ubuntu-Medium.ttf)
+}
+
+@font-face{
+    font-family: 'Ubuntu Light';
+    font-weight: 600;
+    font-style: normal;
+    src:url(/font/Ubuntu/Ubuntu-Light.ttf)
+}
+
+
+.mediumBth{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    width: 100%;
+    font-family: 'Ubuntu';
+    color: white;
+    background-color: rgba(217, 217, 217, 1);
+    font-size: 4.5vw;
+}
+
+.DIVtxtH{
+    width: 85%;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeIcon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.device{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: -5.5vh;
+}
+
+.head{
+    width: 100%;
+    background-color: rgba(43, 97, 168, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button_go{
+    background-color: rgba(144, 144, 144, 0.46);
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    font-family: sans-serif;
+    width: 45%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 3vw;
+}
+
+.description{
+    margin-top: 5%;
+    background-color: rgba(144, 144, 144, 0.46);
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    font-family: sans-serif;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtDescription{
+    width: 90%;
+    line-height: 150%;
+}
+
+.end{
+    width: 100%;
+    background-color: rgba(43, 97, 168, 1);
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Light';
+    height: 25vw;
+}
+
+.contact{
+    width: 95%;
+    /* background-color: rgba(128, 128, 128, 0.555); */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.endIcon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+    /* background-color: rgba(51, 36, 36, 0.808); */
+}
+
+.NameAndPhone{
+    width: 50%;
+    /* background-color: rgba(165, 42, 42, 0.808); */
+}
+
+.ButtonPicture{
+    /* width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(51, 36, 36, 0.808); */
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -0.5vh;
+    /* background-color: rgba(51, 36, 36, 0.808); */
+}
+
+.icon{
+    /* width: 28%;
+    height: 45%; */
+    width: 9vw;
+    height: 7vw;
+}
