@@ -1,0 +1,555 @@
+@font-face{
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    font-style: normal;
+    src:url(https://oneplus2154.github.io/karsi/font/Ubuntu/Ubuntu-Medium.ttf)
+}
+
+@font-face{
+    font-family: 'Ubuntu Light';
+    font-weight: 600;
+    font-style: normal;
+    src:url(https://oneplus2154.github.io/karsi/font/Ubuntu/Ubuntu-Light.ttf)
+}
+
+body{
+    background-color: rgba(217, 217, 217, 1);
+    width: 100%;
+    font-size: 4.5vw;
+    max-width: 1080px;
+}
+
+.DIVtxtH{
+    width: 85%;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeIcon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.head{
+    width: 100%;
+    background-color: rgba(43, 97, 168, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu';
+    color: white;
+    margin-bottom: 10vw;
+}
+
+.pech_ka{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 10vw;
+    margin-left: 45vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.vaza{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 18vw;
+    margin-left: 26vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.utug{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 72vw;
+    margin-left: 33vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.greben{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 65vw;
+    margin-left: 43vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.rubel{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 75vw;
+    margin-left: 53vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.cheska{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 70vw;
+    margin-left: 63vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.lapti{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 87vw;
+    margin-left: 31vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.maslo{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 120vw;
+    margin-left: 41vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.mel{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 110vw;
+    margin-left: 61vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+
+
+.shapka_ushanka{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 40vw;
+    margin-left: 33vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.kaska{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 40vw;
+    margin-left: 45vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.pilotka{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 40vw;
+    margin-left: 56vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.budenovka{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 40vw;
+    margin-left: 66vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.rubanok{
+    width: 10vw;
+    height: 10vw;
+    margin-top: 40vw;
+    margin-left: 75vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.Shapka{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 50vw;
+    margin-left: 16vw;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.end{
+    width: 100%;
+    background-color: rgba(43, 97, 168, 1);
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu Light';
+    height: 25vw;
+    color: white;
+}
+
+.contact{
+    width: 95%;
+    /* background-color: rgba(128, 128, 128, 0.555); */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.NameAndPhone{
+    width: 50%;
+    /* background-color: rgba(165, 42, 42, 0.808); */
+}
+
+.ButtonPicture{
+    /* width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(51, 36, 36, 0.808); */
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -0.5vh;
+    /* background-color: rgba(51, 36, 36, 0.808); */
+}
+
+
+.endIcon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+    /* background-color: rgba(51, 36, 36, 0.808); */
+}
+
+.icon{
+    /* width: 28%;
+    height: 45%; */
+    width: 5vh;
+    height: 4vh;
+}
+
+.EnterBackground{
+    display: flex;
+    align-items: start;
+    height: 133vw;
+}
+
+.medalki{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 73vw;
+    margin-left: 40vw;
+    transform: rotate(-15deg);
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 1;
+    background-color: rgba(127, 255, 212, 0);
+    position: absolute;
+}
+
+.pechka{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 65vw;
+    margin-left: 65vw;
+    transform: rotate(-15deg);
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 1;
+    background-color: rgba(127, 255, 212, 0);
+    position: absolute;
+}
+
+.roba{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 60vw;
+    margin-left: 57vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.sroba{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 30vw;
+    margin-left: 33vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.koleso{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 80vw;
+    margin-left: 23vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.loh{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 90vw;
+    margin-left: 10vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.lampa{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 45vw;
+    margin-left: 5vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.coromislo{
+    width: 15vw;
+    height: 15vw;
+    margin-top: 20vw;
+    margin-left: 50vw;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    border-radius: 20vw;
+    position: absolute;
+}
+
+.pech{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 10vw;
+    margin-left: 45vw;
+    transform: rotate(-15deg);
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 1;
+    background-color: rgba(127, 255, 212, 0);
+    position: absolute;
+}
+
+.ordena{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 60vw;
+    margin-left: vw;
+    /* transform: rotate(-15deg); */
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20vh;
+    position: absolute;
+}
+
+.stol{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 60vw;
+    margin-left: 80vw;
+    /* transform: rotate(-15deg); */
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20vh;
+    position: absolute;
+}
+
+.window{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 60vw;
+    margin-left: 0vw;
+    /* transform: rotate(-15deg); */
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20vh;
+    position: absolute;
+}
+
+.back_enter4{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 60vw;
+    margin-left: 0vw;
+    /* transform: rotate(-15deg); */
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20vh;
+    position: absolute;
+}
+
+.back_enter1{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 60vw;
+    margin-left: 0vw;
+    /* transform: rotate(-15deg); */
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20vh;
+    position: absolute;
+}
+
+
+.back{
+    width: 20vw;
+    height: 20vw;
+    margin-top: 60vw;
+    margin-left: 80vw;
+    /* transform: rotate(-15deg); */
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20vh;
+    position: absolute;
+}
+
+
+.GeogLenta{
+    margin-top: 79vw;
+    margin-left: 10vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.description{
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtDescription{
+    width: 90%;
+    line-height: 150%;
+}
+
+.OrdenaButtonDescription{
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+
+.MenuButton{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.MenuButtonDiv{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.MenuButtonClass{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 3vw;
+    background-color: rgba(144, 144, 144, 0.46);
+    font-size: 3vw;
+    color: white;
+    border: none;
+}
+
+button{
+    font-family: 'Ubuntu';
+}
